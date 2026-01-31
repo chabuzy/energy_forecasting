@@ -1,0 +1,41 @@
+
+---
+
+## 🛡️ `.gitignore` (Python + VS Code)
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Environment
+venv/
+.env
+.env.*
+venv/
+
+# Data
+data/processed/
+data/interim/
+*.csv
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
